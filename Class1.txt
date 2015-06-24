@@ -1,0 +1,20 @@
+﻿package meTeper;
+import java.util.Scanner;
+
+public class Class1{
+	
+public static void main(String[] args){
+	
+	
+	MethodsParameter Parameters = new MethodsParameter ();
+	
+	System.out.println("Fut ndonji nr me koqe");
+	Scanner inputet = new Scanner(System.in);
+	String name = inputet.nextLine();
+	
+	Parameters.funksionvk(name);
+	
+}	
+	
+	
+}
